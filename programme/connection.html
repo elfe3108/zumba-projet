@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<!-- ***
+** Greta Saint-Etienne
+** Jurine
+** Eva
+** 30/05/2019
+** Version V 0.1
+** Date de modification 
+** Page de connection intranet
+** Projet Zumba-->
+  <head> 
+    <meta charset="utf-8" />
+    <meta name="author" content="Eva Jurine">
+    <meta name="copyright" content="copyright 2019">
+    <link href='connection.css' type='text/css' rel='stylesheet'/>
+    <title>Accueil intranet</title>  
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" class="logo">
+      <h1>ZumbaDala</h1>
+    </header> 
+      <h2>Bienvenue ! Saissisez vos identifiants pour vous connecter à votre espace</h2>  
+        <form method="post" action="connection.php"> 
+            <div>
+                <label for="email">Entrez votre adresse mail :</label>
+                <input type="email" name="email" id="email" maxlenght="50" required>
+            </div>
+            <div>
+                <label for="password">Entrez votre mot de passe :</label>
+                <input type="password" name="password" id="password" minlength="8" required>
+            </div>
+            <div>
+                <input type="submit" value="Connection">
+            </div>
+        </form>
+    <footer>
+      <p class="footer">
+        <a href="https://www.zumbaDala.fr">ZumbaDala.fr</a>
+      </p>
+    </footer>
+  </body>
+</html>
